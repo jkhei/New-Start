@@ -1,0 +1,68 @@
+body{
+  background-image: url(https://scontent.fmnl19-1.fna.fbcdn.net/v/t1.6435-9/167222583_4058145920872589_3738824123935371516_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=e3f864&_nc_eui2=AeF44ylFZ3UpHOFvuPtrIyrE2UjdELUDT8PZSN0QtQNPw06lfiwp9Jqg5Vfj3nQZ7mO6yXm0-ZYiSs6zMuzv0uKm&_nc_ohc=tqduJ0rW4ioAX_EuuuW&_nc_ht=scontent.fmnl19-1.fna&oh=4de5b356cc15d6043defbb4b4657ac66&oe=60E91031);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-size: cover;
+
+  font-family: 'Abel', sans-serif;
+  font-size: 20px;
+  color: #FFAEBE
+}  
+
+h1, h2{
+  font-family: "impact";
+  font-weight: normal;
+  text-transform: uppercase;
+  margin: 0px;
+  padding: 0px;
+  color: #FA2A60;
+  text-align: center;
+}
+
+h2{
+  text-align: left;
+}
+
+#header{
+  width: 1000px;
+  margin: 150px auto;
+}
+
+#logo h1{
+  line-height: 150px;
+  letter-spacing: -3px;
+  font-size: 9.5em;
+}
+
+#ThreeColumns{
+  overflow: hidden;
+  width: 1000px;
+  margin: 0px auto;
+  padding: 30px 30px; 
+  
+  background: rgba(0,0,0,0.4);
+}
+
+#ThreeColumns h2{
+  padding: 0px 9px 20px 0px;
+  font-size: 50px;
+  letter-spacing: 1px;
+}
+
+#ThreeColumns #column1{
+  float: left;
+  width: 300px;
+  margin-right: 50px;
+}
+
+#ThreeColumns #column2{
+  float: left;
+  width: 300px;
+}
+
+#ThreeColumns #column3{
+  float: right;
+  width: 300px;
+}
