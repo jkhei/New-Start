@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Scaling Website Sample</title>
+<style id="jsbin-css">
+body{
+  background: #0B0C1F;
+  color: #FAFAFA;
+  font-family: 'Abel', sans-serif;
+  font-size: 20px;
+}
+
+h1, h2{
+  color: #F44F13;
+  text-transform: uppercase;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+#logo h1{
+  line-height: 100px auto;
+  width: 1000px auto;
+  font-size: 10.0em;
+  padding: 30px 30px;
+  font-stretch: ultra-condensed;
+  letter-spacing: -10px;
+}
+
+h2{
+  font-size: 5.0em;
+  font-stretch: ultra-condensed;
+  letter-spacing: -5px;
+}
+
+.sectionContent{
+  width: 1000px;
+  overflow: hidden;
+  margin: 0px auto;
+  padding: 30px 30px;
+}
+
+#sec1{
+  background-color: #CBCAD0;
+  color: #0B0C1F;
+}
+
+#sec3{
+  background-color: #CBCAD0;
+  color: #0B0C1F;
+}
+
+#sec5{
+  background-color: #CBCAD0;
+  color: #0B0C1F;
+}
+
+#darkBlue{
+  color: #0B0C1F;
+}
+
+#whiteColor{
+  color: #CBCAD0;
+}
+
+#logoWhite{
+  color: #CBCAD0;
+}
+
+p{
+  font-stretch: ultra-condensed;
+  font-size: 26px;
+  text-align: justify;
+}
+
+#sec4 #column1{
+  float: left;
+  width: 300px;
+  text-align: justify;
+  margin-right: 50px;
+}
+
+#sec4 #column2{
+  float: left;
+  width: 300px;
+  text-align: justify;
+}
+
+#sec4 #column3{
+  float: right;
+  width: 300px;
+  text-align: justify;
+}
+
+#sec4 h2{
+  font-size: 2em;
+  font-stretch: ultra-condensed;
+  letter-spacing: -1.5px;
+}
+
+#column1 .fas{
+  color: #CBCAD0;
+  font-size: 75px;
+  display: block;
+  text-align: center;
+  margin: 15px auto;
+}
+
+#column2 .fas{
+  color: #CBCAD0;
+  font-size: 75px;
+  display: block;
+  text-align: center;
+  margin: 15px auto;
+}
+
+#column3 .fas{
+  color: #CBCAD0;
+  font-size: 75px;
+  display: block;
+  text-align: center;
+  margin: 15px auto;
+}
+</style>
+</head>
+  
+  <script src="https://kit.fontawesome.com/5c5a61ec51.js" crossorigin="anonymous"></script>
+  
+<body>
+  <div id="page">
+    <div id="header-page">
+      <div id="header">
+        <div id="logo">
+          <h1>Temp <span id="logoWhite">Logo</span></h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div id="sec1">
+    <div id="sec1Content" class="sectionContent">
+      <h2>Lorem <span id="darkBlue">Ipsum</span></h2>
+      <p>Maecenas vitae faucibus quam, congue condimentum sapien. Nam sagittis enim at mi eleifend, vitae imperdiet turpis tempor. Ut et mollis lectus. Proin vel ipsum vitae risus facilisis faucibus. Phasellus finibus dolor eget justo sollicitudin commodo. Etiam efficitur sem et nibh finibus tincidunt. Phasellus porta tellus in facilisis suscipit. Cras molestie, eros vitae pellentesque scelerisque, nisl dui malesuada felis, ac sodales est dui in urna. Aliquam et tortor nibh. Donec lacus lorem, varius sit amet feugiat a, mollis in arcu. Nullam mollis ullamcorper posuere. Sed luctus imperdiet ante, in mattis odio eleifend sit amet.</p>
+    </div>
+  </div>
+  
+  <div id="sec2">
+    <div id="sec2Content" class="sectionContent">
+      <h2>Lorem <span id="whiteColor">Ipsum</span></h2>
+      <p>Maecenas vitae faucibus quam, congue condimentum sapien. Nam sagittis enim at mi eleifend, vitae imperdiet turpis tempor. Ut et mollis lectus. Proin vel ipsum vitae risus facilisis faucibus. Phasellus finibus dolor eget justo sollicitudin commodo. Etiam efficitur sem et nibh finibus tincidunt. Phasellus porta tellus in facilisis suscipit. Cras molestie, eros vitae pellentesque scelerisque, nisl dui malesuada felis, ac sodales est dui in urna. Aliquam et tortor nibh. Donec lacus lorem, varius sit amet feugiat a, mollis in arcu. Nullam mollis ullamcorper posuere. Sed luctus imperdiet ante, in mattis odio eleifend sit amet.</p>
+    </div>
+  </div>
+
+  <div id="sec3">
+    <div id="sec3Content" class="sectionContent">
+      <h2>Lorem <span id="darkBlue">Ipsum</span></h2>
+      <p>Maecenas vitae faucibus quam, congue condimentum sapien. Nam sagittis enim at mi eleifend, vitae imperdiet turpis tempor. Ut et mollis lectus. Proin vel ipsum vitae risus facilisis faucibus. Phasellus finibus dolor eget justo sollicitudin commodo. Etiam efficitur sem et nibh finibus tincidunt. Phasellus porta tellus in facilisis suscipit. Cras molestie, eros vitae pellentesque scelerisque, nisl dui malesuada felis, ac sodales est dui in urna. Aliquam et tortor nibh. Donec lacus lorem, varius sit amet feugiat a, mollis in arcu. Nullam mollis ullamcorper posuere. Sed luctus imperdiet ante, in mattis odio eleifend sit amet.</p>
+    </div>
+  </div>
+
+  <div id="sec4">
+    <div id="sec4Content" class="sectionContent">
+      <div id="threeColumns">
+      <div id="column1"
+           <p1><i class="fas fa-adjust"></i></p> 
+           <h2>Lorem <span id="whiteColor">Ipsum</span></h2>
+           <p>Duis elemen, elit elementum pretium finibus, turpis enim fermentum elit, in lacinia tortor urna eget magna. Sed hendrerit risus ut congue condimentum. Integer vehicula, nunc eget venenatis tincidunt, mi lectus ultrices orci, eu dapibus ante urna sed diam. Ut sem diam, rhoncus sed massa a, blandit aliquam libero.</p>
+      </div>
+      <div id="column2"
+           <p1><i class="fas fa-clipboard-check"></i></p> 
+           <h2>Lorem <span id="whiteColor">Ipsum</span></h2>
+           <p>Duis elemen, elit elementum pretium finibus, turpis enim fermentum elit, in lacinia tortor urna eget magna. Sed hendrerit risus ut congue condimentum. Integer vehicula, nunc eget venenatis tincidunt, mi lectus ultrices orci, eu dapibus ante urna sed diam. Ut sem diam, rhoncus sed massa a, blandit aliquam libero.</p>
+      </div>
+      <div id="column3"
+           <p1><i class="fas fa-feather"></i></p> 
+           <h2>Lorem <span id="whiteColor">Ipsum</span></h2>
+           <p>Duis elemen, elit elementum pretium finibus, turpis enim fermentum elit, in lacinia tortor urna eget magna. Sed hendrerit risus ut congue condimentum. Integer vehicula, nunc eget venenatis tincidunt, mi lectus ultrices orci, eu dapibus ante urna sed diam. Ut sem diam, rhoncus sed massa a, blandit aliquam libero.</p>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="sec5">
+    <div id="sec5Content" class="sectionContent">
+      <h2>Lorem <span id="darkBlue">Ipsum</span></h2>
+      <p>Maecenas vitae faucibus quam, congue condimentum sapien. Nam sagittis enim at mi eleifend, vitae imperdiet turpis tempor. Ut et mollis lectus. Proin vel ipsum vitae risus facilisis faucibus. Phasellus finibus dolor eget justo sollicitudin commodo. Etiam efficitur sem et nibh finibus tincidunt. Phasellus porta tellus in facilisis suscipit. Cras molestie, eros vitae pellentesque scelerisque, nisl dui malesuada felis, ac sodales est dui in urna. Aliquam et tortor nibh. Donec lacus lorem, varius sit amet feugiat a, mollis in arcu. Nullam mollis ullamcorper posuere. Sed luctus imperdiet ante, in mattis odio eleifend sit amet.</p>
+    </div>
+  </div>
+  
+  
+
+
+<script id="jsbin-source-css" type="text/css">body{
+  background: #0B0C1F;
+  color: #FAFAFA;
+  font-family: 'Abel', sans-serif;
+  font-size: 20px;
+}
+
+h1, h2{
+  color: #F44F13;
+  text-transform: uppercase;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+#logo h1{
+  line-height: 100px auto;
+  width: 1000px auto;
+  font-size: 10.0em;
+  padding: 30px 30px;
+  font-stretch: ultra-condensed;
+  letter-spacing: -10px;
+}
+
+h2{
+  font-size: 5.0em;
+  font-stretch: ultra-condensed;
+  letter-spacing: -5px;
+}
+
+.sectionContent{
+  width: 1000px;
+  overflow: hidden;
+  margin: 0px auto;
+  padding: 30px 30px;
+}
+
+#sec1{
+  background-color: #CBCAD0;
+  color: #0B0C1F;
+}
+
+#sec3{
+  background-color: #CBCAD0;
+  color: #0B0C1F;
+}
+
+#sec5{
+  background-color: #CBCAD0;
+  color: #0B0C1F;
+}
+
+#darkBlue{
+  color: #0B0C1F;
+}
+
+#whiteColor{
+  color: #CBCAD0;
+}
+
+#logoWhite{
+  color: #CBCAD0;
+}
+
+p{
+  font-stretch: ultra-condensed;
+  font-size: 26px;
+  text-align: justify;
+}
+
+#sec4 #column1{
+  float: left;
+  width: 300px;
+  text-align: justify;
+  margin-right: 50px;
+}
+
+#sec4 #column2{
+  float: left;
+  width: 300px;
+  text-align: justify;
+}
+
+#sec4 #column3{
+  float: right;
+  width: 300px;
+  text-align: justify;
+}
+
+#sec4 h2{
+  font-size: 2em;
+  font-stretch: ultra-condensed;
+  letter-spacing: -1.5px;
+}
+
+#column1 .fas{
+  color: #CBCAD0;
+  font-size: 75px;
+  display: block;
+  text-align: center;
+  margin: 15px auto;
+}
+
+#column2 .fas{
+  color: #CBCAD0;
+  font-size: 75px;
+  display: block;
+  text-align: center;
+  margin: 15px auto;
+}
+
+#column3 .fas{
+  color: #CBCAD0;
+  font-size: 75px;
+  display: block;
+  text-align: center;
+  margin: 15px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

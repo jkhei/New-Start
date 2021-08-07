@@ -1,0 +1,118 @@
+body{
+  background: #0B0C1F;
+  color: #FAFAFA;
+  font-family: 'Abel', sans-serif;
+  font-size: 20px;
+}
+
+h1, h2{
+  color: #F44F13;
+  text-transform: uppercase;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+#logo h1{
+  line-height: 100px auto;
+  width: 1000px auto;
+  font-size: 10.0em;
+  padding: 30px 30px;
+  font-stretch: ultra-condensed;
+  letter-spacing: -10px;
+}
+
+h2{
+  font-size: 5.0em;
+  font-stretch: ultra-condensed;
+  letter-spacing: -5px;
+}
+
+.sectionContent{
+  width: 1000px;
+  overflow: hidden;
+  margin: 0px auto;
+  padding: 30px 30px;
+}
+
+#sec1{
+  background-color: #CBCAD0;
+  color: #0B0C1F;
+}
+
+#sec3{
+  background-color: #CBCAD0;
+  color: #0B0C1F;
+}
+
+#sec5{
+  background-color: #CBCAD0;
+  color: #0B0C1F;
+}
+
+#darkBlue{
+  color: #0B0C1F;
+}
+
+#whiteColor{
+  color: #CBCAD0;
+}
+
+#logoWhite{
+  color: #CBCAD0;
+}
+
+p{
+  font-stretch: ultra-condensed;
+  font-size: 26px;
+  text-align: justify;
+}
+
+#sec4 #column1{
+  float: left;
+  width: 300px;
+  text-align: justify;
+  margin-right: 50px;
+}
+
+#sec4 #column2{
+  float: left;
+  width: 300px;
+  text-align: justify;
+}
+
+#sec4 #column3{
+  float: right;
+  width: 300px;
+  text-align: justify;
+}
+
+#sec4 h2{
+  font-size: 2em;
+  font-stretch: ultra-condensed;
+  letter-spacing: -1.5px;
+}
+
+#column1 .fas{
+  color: #CBCAD0;
+  font-size: 75px;
+  display: block;
+  text-align: center;
+  margin: 15px auto;
+}
+
+#column2 .fas{
+  color: #CBCAD0;
+  font-size: 75px;
+  display: block;
+  text-align: center;
+  margin: 15px auto;
+}
+
+#column3 .fas{
+  color: #CBCAD0;
+  font-size: 75px;
+  display: block;
+  text-align: center;
+  margin: 15px auto;
+}
